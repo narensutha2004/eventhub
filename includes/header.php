@@ -1,9 +1,5 @@
 <?php
-/*
- * header.php - Top of every page (head + navigation bar)
- * Member 2: [Name] - Layout and navigation
- * Each page sets $pageTitle before including this file.
- */
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
