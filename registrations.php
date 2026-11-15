@@ -49,7 +49,7 @@ include 'includes/header.php';
                         <td><?php echo htmlspecialchars($row['email']); ?></td>
                         <td><?php echo htmlspecialchars($row['phone']); ?></td>
                         <td>
-                            <!-- Delete form: handled by delete_registration.php (Member 7) -->
+                            
                             <form action="delete_registration.php" method="POST" class="delete-form">
                                 <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
                                 <button type="submit" class="btn btn-danger">Delete</button>
