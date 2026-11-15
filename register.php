@@ -1,19 +1,11 @@
 <?php
-/*
- * register.php - The registration form
- * Member 4: [Name] - Registration form
- * The form sends its data to save_registration.php (method POST).
- */
 
 require 'includes/db.php';
 
-// Events for the dropdown
 $result = mysqli_query($conn, "SELECT id, title FROM events ORDER BY event_date");
 
-// If the user clicked "Register" on an event card, pre-select that event
 $selectedEvent = isset($_GET['event']) ? (int)$_GET['event'] : 0;
 
-// Error message sent back by save_registration.php
 $error = isset($_GET['error']) ? $_GET['error'] : "";
 
 $pageTitle = "Register";
