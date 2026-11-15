@@ -1,8 +1,5 @@
 <?php
-/*
- * footer.php - Bottom of every page
- * Member 2: [Name] - Layout and navigation
- */
+
 ?>
 </main>
 
